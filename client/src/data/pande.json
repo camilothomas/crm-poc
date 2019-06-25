@@ -1,0 +1,14 @@
+{
+  "people": [
+	  {
+		  "name": "Ugly JSON",
+		  "gender": "M",
+		  "working": true
+	  },
+	  {
+		  "name": "Handsome JSON",
+		  "gender": "F",
+		  "working": false
+	  }
+  ]
+}

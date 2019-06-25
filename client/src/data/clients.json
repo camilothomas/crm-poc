@@ -1,0 +1,92 @@
+[
+  {
+    "client_ID": "5d098a5339a680353687e928",
+    "client_First_Name": "Flora",
+    "client_Last_Name": "Michael",
+    "client_Phone_Number": "(980) 521-2355",
+    "client_Email": "lorainegillespie@prismatic.com",
+    "client_Full_Address": [
+      20720,
+      "McDonald Avenue",
+      "Lowgap",
+      "South Carolina",
+      "Mauritius"
+    ],
+    "client_Created_Date": "Thu Apr 11 2019 12:19:06 GMT-0500 (Central Daylight Time)"
+  },
+  {
+    "client_ID": "5d098a53c172b37e00371f4a",
+    "client_First_Name": "Aisha",
+    "client_Last_Name": "Bean",
+    "client_Phone_Number": "(900) 510-2543",
+    "client_Email": "maryerickson@isoternia.com",
+    "client_Full_Address": [
+      63143,
+      "Bulwer Place",
+      "Epworth",
+      "District Of Columbia",
+      "Guyana"
+    ],
+    "client_Created_Date": "Mon Apr 15 2019 14:42:22 GMT-0500 (Central Daylight Time)"
+  },
+  {
+    "client_ID": "5d098a53be00fb206d50cb85",
+    "client_First_Name": "Henrietta",
+    "client_Last_Name": "Burnett",
+    "client_Phone_Number": "(851) 402-3531",
+    "client_Email": "lottiejordan@zorromop.com",
+    "client_Full_Address": [
+      94464,
+      "Cumberland Walk",
+      "Navarre",
+      "Delaware",
+      "Svalbard and Jan Mayen Islands"
+    ],
+    "client_Created_Date": "Mon Dec 25 2017 22:36:12 GMT-0600 (Central Standard Time)"
+  },
+  {
+    "client_ID": "5d098a5330c083d6f243ccd4",
+    "client_First_Name": "Jeanne",
+    "client_Last_Name": "Mckay",
+    "client_Phone_Number": "(812) 559-3423",
+    "client_Email": "forbeswhitfield@quizmo.com",
+    "client_Full_Address": [
+      54143,
+      "Neptune Court",
+      "Bainbridge",
+      "Wisconsin",
+      "Andorra"
+    ],
+    "client_Created_Date": "Wed Jul 26 2017 12:24:45 GMT-0500 (Central Daylight Time)"
+  },
+  {
+    "client_ID": "5d098a534d9ee063b74d092c",
+    "client_First_Name": "Guadalupe",
+    "client_Last_Name": "Wiley",
+    "client_Phone_Number": "(943) 592-3769",
+    "client_Email": "holtsingleton@zillar.com",
+    "client_Full_Address": [
+      45969,
+      "Montauk Court",
+      "Steinhatchee",
+      "Alaska",
+      "Rwanda"
+    ],
+    "client_Created_Date": "Thu Jun 28 2018 06:08:25 GMT-0500 (Central Daylight Time)"
+  },
+  {
+    "client_ID": "5d098a531296457562b2f9a9",
+    "client_First_Name": "Lorie",
+    "client_Last_Name": "Simon",
+    "client_Phone_Number": "(875) 510-2774",
+    "client_Email": "chelsearollins@roughies.com",
+    "client_Full_Address": [
+      97967,
+      "Pershing Loop",
+      "Temperanceville",
+      "North Dakota",
+      "Guadeloupe"
+    ],
+    "client_Created_Date": "Mon Jan 08 2018 13:43:00 GMT-0600 (Central Standard Time)"
+  }
+]
