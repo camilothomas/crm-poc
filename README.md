@@ -1,5 +1,5 @@
-# crm-poc
-I am doing the front end work for a friend's Customer Relationship Management POC.
+# PandeApps front-end
+PandeApps' Customer Relationship Management App is a progressive web app designed to serve small business owners in Rwanda.
 
 to run,
 use the command npm install in the client folder
