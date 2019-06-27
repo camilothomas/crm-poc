@@ -1,32 +1,31 @@
 import React from 'react';
 import styled from 'styled-components';
 
+const SearchWrapper = styled.div`
+  height: 15vmax;
+`;
+
 const SearchInput = styled.input`
   box-shadow: 0 .5vh .25vh rgba(0,0,0,.2);
   border-radius: 2vmin;
-  padding-left: 1vh;
-  padding-right: 1vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
   border: none;
-  width: 100%;
+  width: 66vw;
   height: 6vmax;
   font-size: 4.5vmin;
-`;
-
-const Form1 = styled.form`
-  width: 70%;
   position: absolute;
-  top:50%;
-  margin-top:-3.5vmax;
+  top: 3vmax;
   right:50%;
   margin-right:-40vw;
 `;
 
 const Search = (props) => (
-      <React.Fragment>
-      <Form1 action="/action_page.php">
-        <SearchInput type="text" name="search" placeholder="search"/>
-      </Form1>
-      </React.Fragment>
+  <SearchWrapper>
+    <form action="/action_page.php">
+      <SearchInput type="text" name="search" placeholder="search"/>
+    </form>
+  </SearchWrapper>
 );
 
 export default Search;

@@ -14,10 +14,6 @@ code {
 
 @import url('https://fonts.googleapis.com/css?family=Athiti&display=swap');
 
-.disappear {
-  display: none !important;
-}
-
 ::-webkit-input-placeholder {
   text-align: center;
 }

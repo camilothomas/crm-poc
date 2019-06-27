@@ -3,11 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Home, Orders } from './pages';
-import { Header, AppWrapper } from './components';
+import { AppWrapper } from './components';
 
 const App = () => {
   return (
-    <AppWrapper>
+    <AppWrapper id="AppWrapper">
       <Router>
         <Route exact path="/" component={Home} />
         <Route path="/orders" component={Orders} />

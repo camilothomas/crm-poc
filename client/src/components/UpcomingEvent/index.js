@@ -36,7 +36,7 @@ const Quad = styled.div`
 `;
 
 const ArrowWrap = styled.div`
-  height: 12vh;
+  height: 13.5vmax;
   width: 80vw;
   position:absolute;
   left:50%;
@@ -45,37 +45,30 @@ const ArrowWrap = styled.div`
 
 function UpcomingEvent(props) {
   return(
-      <React.Fragment>
-        <div className='row'>
-          <div className='col'>
-            <ListItem>
-            <EventCard>
-              <EventDataGrid>
-              <Gutter/>
-              <Quad>
-                {props.name}
-              </Quad>
-              <Quad>
-                {props.type}
-              </Quad>
-              <Gutter/>
-              <Gutter/>
-              <Quad>
-                {props.date}
-              </Quad>
-              <Quad>
-                {props.status}
-              </Quad>
-              </EventDataGrid>
-            </EventCard>
-            <ArrowWrap>
-            <RightArrow />
-            </ArrowWrap>
-            </ListItem>
-            
-          </div>
-        </div>
-      </React.Fragment>
+    <ListItem>
+      <EventCard>
+        <EventDataGrid>
+        <Gutter />
+        <Quad>
+          {props.name}
+        </Quad>
+        <Quad>
+          {props.type}
+        </Quad>
+        <Gutter/>
+        <Gutter/>
+        <Quad>
+          {props.date}
+        </Quad>
+        <Quad>
+          {props.status}
+        </Quad>
+        </EventDataGrid>
+      </EventCard>
+      <ArrowWrap>
+      <RightArrow />
+      </ArrowWrap>
+    </ListItem>
   );
 }
 

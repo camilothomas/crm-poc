@@ -36,8 +36,14 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-	line-height: 1;
+    line-height: 1;
+    /*Camilo did*/
+    height: 100%;
+    width: 100%;
+    /*did olimaC*/
 }
+
+
 
 ol, ul {
 	list-style: none;

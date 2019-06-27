@@ -3,23 +3,15 @@ import styled from 'styled-components';
 import { Search } from '../'
 import { MenuIcon } from '../'
 
-const HeaderContainer = styled.div`
-  height: 14vmax;
+const HeaderWrapper = styled.div`
+  width: 100%;
 `;
 
 const Header = (props) => (
-    
-    <div className='row'>
-      <div className='col'>
-      <HeaderContainer>
-        
-        <MenuIcon />
-      
-      
-        <Search />
-      </HeaderContainer>
-      </div>
-    </div>
+  <HeaderWrapper id="Header">
+    <MenuIcon onClick={props.onClick}/>
+    <Search />
+  </HeaderWrapper>
 );
 
 export default Header;

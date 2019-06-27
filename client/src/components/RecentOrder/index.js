@@ -14,8 +14,8 @@ const OrderCard = styled.div`
   display: table;
   width: 80vw;
   position:absolute;
-  left:50%;
-  margin-left:-40vw;
+  right:50%;
+  margin-right:-40vw;
   font-size: 5vmin;
 `;
 
@@ -25,10 +25,8 @@ const OrderText = styled.div`
   text-align: center;
 `;
 
-
-
 const ArrowWrap = styled.div`
-  height: 7vh;
+  height: 7vmax;
   width: 80vw;
   position:absolute;
   left:50%;
@@ -36,7 +34,7 @@ const ArrowWrap = styled.div`
 `;
 
 const RecentOrder = (props) =>(  
-  <React.Fragment>
+    
     <ListItem>
       <OrderCard>
         <OrderText>
@@ -47,7 +45,7 @@ const RecentOrder = (props) =>(
       <RightArrow />
       </ArrowWrap>
     </ListItem>
-  </React.Fragment>
+  
 );
 
 export default RecentOrder;
